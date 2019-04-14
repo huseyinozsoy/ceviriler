@@ -254,9 +254,9 @@ Yığın benzeri davranış aşağıdaki örnekte görülebilir:
     // end:2  
     // end:3
 
-### Nested functions and closures
+### İç İçe Fonksiyonlar Ve Kapamalar
 
-You can nest a function within a function. The nested (inner) function is private to its containing (outer) function. It also forms a *closure*. A closure is an expression (typically a function) that can have free variables together with an environment that binds those variables (that "closes" the expression).
+Bir fonksiyonu bir başka fonksiyonun içine yerelştirebilirsiniz. The nested (inner) function is private to its containing (outer) function. It also forms a *closure*. A closure is an expression (typically a function) that can have free variables together with an environment that binds those variables (that "closes" the expression).
 
 Since a nested function is a closure, this means that a nested function can "inherit" the arguments and variables of its containing function. In other words, the inner function contains the scope of the outer function.
 
